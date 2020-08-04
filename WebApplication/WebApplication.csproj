@@ -175,6 +175,15 @@
     <Compile Include="Migrations\202007281728285_AddForeignKeyPropertiesToGig.Designer.cs">
       <DependentUpon>202007281728285_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008041514551_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\202008041514551_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>202008041514551_AddNameToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\ForgotViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\ForgotPasswordViewModel.cs" />
+    <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFormViewModel.cs" />
     <Compile Include="Global.asax.cs">
@@ -297,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007281728285_AddForeignKeyPropertiesToGig.resx">
       <DependentUpon>202007281728285_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008041514551_AddNameToApplicationUser.resx">
+      <DependentUpon>202008041514551_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
